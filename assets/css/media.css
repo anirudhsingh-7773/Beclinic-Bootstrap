@@ -1,0 +1,67 @@
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 16px;
+  };
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  html {
+    font-size: 12px;
+  }
+
+  /* Header styling */
+  .header__primary {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+
+  /* Header styling */
+  .header__primary {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  html {
+    font-size: 10px;
+  }
+
+  /* Header styling */
+  .header__primary {
+    display: none;
+  }
+
+  /* Hero styling */
+  .hero__cta-button {
+    width: 50%;
+  }
+
+  /* Contact form and news section styles */
+  .design-block {
+    display: none;
+  }
+
+  .contact-wrapper {
+    flex-direction: column;
+  }
+
+  .contact-wrapper > div {
+    width: 100%;
+    padding: 50px;
+  }
+
+  .contact__form-wrap {
+    background-color: #56b0d2;
+  }
+}
